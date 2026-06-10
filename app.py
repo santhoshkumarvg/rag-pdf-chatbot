@@ -11,7 +11,7 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
 
-st.sidebar.title("RAG PDF Chatbot")
+st.sidebar.title("AI-Powered PDF Document Assistant")
 st.sidebar.write("Upload PDFs and ask questions")
 
 if st.sidebar.button("Clear Chat"):
@@ -48,7 +48,7 @@ vectordb = Chroma(
     embedding_function=embedding
 )
 
-st.title("🤖 AI-Powered Document Assistant")
+st.title("🤖 AI-Powered PDF Document Assistant")
 
 st.caption(
     "Built with Streamlit, LangChain, ChromaDB, HuggingFace Embeddings and Gemini"
