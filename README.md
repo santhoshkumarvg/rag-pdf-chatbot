@@ -1,6 +1,6 @@
 # AI-Powered PDF Document Assistant
 
-🚀 Live Demo: https://rag-pdf-chatbot-txd7btymchteylgahmhnqy.streamlit.app
+🚀 Live Demo: https://rag-pdf-chatbot-rxd7btymchteylgahmhnqy.streamlit.app/
 
 📂 GitHub Repository: https://github.com/santhoshkumarvg/rag-pdf-chatbot
 
