@@ -1,5 +1,11 @@
 # AI-Powered PDF Document Assistant
 
+🚀 Live Demo: https://rag-pdf-chatbot-txd7btymchteylgahmhnqy.streamlit.app
+
+📂 GitHub Repository: https://github.com/santhoshkumarvg/rag-pdf-chatbot
+
+## Overview
+
 An AI-powered Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents and ask questions in natural language.
 
 ## Features
@@ -20,3 +26,11 @@ An AI-powered Retrieval-Augmented Generation (RAG) application that allows users
 - ChromaDB
 - HuggingFace Embeddings
 - Google Gemini
+
+## Architecture
+
+PDF → Text Extraction → Chunking → Embeddings → ChromaDB → Retriever → Gemini → Answer + Sources
+
+## Author
+
+SanthoshKumar V G
